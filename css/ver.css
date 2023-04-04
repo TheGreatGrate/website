@@ -5,11 +5,7 @@ html,body{
     font-family: sans-serif;
     overflow-x: hidden;
 }
-/* Customize the scrollbar */
-::-webkit-scrollbar {
-    width: 5px;
-    height: 10px;
-}
+
 
 ::-webkit-scrollbar-track {
     background: #11101D;
