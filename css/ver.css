@@ -39,6 +39,7 @@ html,body{
 #scroll-up-btn:hover {
     background-color: #555;
 }
+
 nav {
   background-color: #333D49;
   height: 50px;
@@ -91,6 +92,12 @@ a {
 }
 a:hover {
   background-color: #555;
+}
+.div-form-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
 }
 .form-container{
   display: flex;
