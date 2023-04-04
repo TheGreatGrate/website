@@ -5,7 +5,10 @@ html,body{
     font-family: sans-serif;
     overflow-x: hidden;
 }
-
+::-webkit-scrollbar {
+    width: 5px;
+    height: 10px;
+}
 
 ::-webkit-scrollbar-track {
     background: #11101D;
@@ -36,16 +39,30 @@ html,body{
 #scroll-up-btn:hover {
     background-color: #555;
 }
-
-.arrow-up {
-    display: inline-block;
-    border: solid white;
-    border-width: 0 3px 3px 0;
-    padding: 3px;
-    transform: rotate(-135deg);
+nav {
+  background-color: #333D49;
+  height: 50px;
+  display: flex;
+  justify-content: right;
 }
 
+ul {
+  list-style: none;
+  display: flex;
+}
 
+li {
+  margin: 0 5px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 15px;
+  transition: background-color 0.3s ease;
+}
  .dropdown-menu {
   display: none;
   position: absolute;
