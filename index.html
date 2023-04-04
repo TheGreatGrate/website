@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="img/winland.png" type="image/x-icon">
+    <title>Winland | Login</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/ver.css">
+</head>
+<body>
+<div class="section1">
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <a class="navbar-brand" href="#"><img class="logohome" src="img/winlandlogonew.png" alt="Winland logo"></a>
+  <div class="collapse navbar-collapse text-center" id="navbarNav">
+    <ul class="navbar-nav ml-auto">
+        <a class="nav-link" href="#" id="reportDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Contact
+        </a>
+        <a class="nav-link" href="#" id="transactionDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          About Us
+        </a>
+    </ul>
+  </div>
+</nav>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 offset-md-4 form login-form">
+                <form id="login-form" action="" method="POST" autocomplete="off">
+                        <div class="image">
+                            <img src="img/winlandlogo.png" class="logo-image">
+                        </div>
+                    <p class="text-center">Login with Admin email and password.</p>
+                    <div class="form-group">
+                        <input class="form-control" type="email" name="email" placeholder="ID">
+                    </div>
+                    <div class="form-group">
+                        <input class="form-control" type="password" name="password" placeholder="Password" required>
+                    </div>
+                    <div class="form-group">
+                        <input class="form-control button" type="submit" name="loginbtn" value="Login">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div> 
+</body>
+</html>
