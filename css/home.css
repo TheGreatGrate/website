@@ -111,7 +111,7 @@ body{
 	color: #f4fbff;
 }
 .wrapper .section .top_navbar .hamburger a:hover{
-	color: #a2ecff;
+	color: #a1a1a1;
 }
 body.active .wrapper .sidebar{
 	left: -225px;
