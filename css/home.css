@@ -8,7 +8,6 @@
 	box-sizing: border-box;
 	font-family: 'Open Sans', sans-serif;
 }
-
 body{
 	background: #f5f6fa;
 }
@@ -20,10 +19,7 @@ body{
 .links-container {
     margin-left: auto;
     text-decoration: none;
-    
 }
-
-
 .about-link, .contact-link {
     margin-left: 10px;
     color: white;
@@ -38,12 +34,10 @@ body{
 	padding: 20px 0;
 	transition: all 0.5s ease;
 }
-
 .wrapper .sidebar .profile{
 	margin-bottom: 30px;
 	text-align: center;
 }
-
 .wrapper .sidebar .profile img{
 	display: block;
 	width: 100px;
@@ -51,17 +45,14 @@ body{
     border-radius: 50%;
 	margin: 0 auto;
 }
-
 .wrapper .sidebar .profile h3{
 	color: #ffffff;
 	margin: 10px 0 5px;
 }
-
 .wrapper .sidebar .profile p{
 	color: rgb(206, 240, 253);
 	font-size: 14px;
 }
-
 .wrapper .sidebar ul li a{
 	display: block;
 	padding: 13px 30px;
@@ -70,7 +61,6 @@ body{
 	font-size: 16px;
 	position: relative;
 }
-
 .wrapper .sidebar ul li a .icon{
 	color: #dee4ec;
 	width: 30px;
@@ -79,21 +69,17 @@ body{
 .wrapper .sidebar ul li a:hover,
 .wrapper .sidebar ul li a.active{
 	color: #777777;
-
 	background:white;
     border-right: 2px solid rgb(37, 37, 37);
 }
-
 .wrapper .sidebar ul li a:hover .icon,
 .wrapper .sidebar ul li a.active .icon{
 	color: #777777;
 }
-
 .wrapper .sidebar ul li a:hover:before,
 .wrapper .sidebar ul li a.active:before{
 	display: block;
 }
-
 .wrapper .section{
 	width: calc(100% - 225px);
 	margin-left: 225px;
