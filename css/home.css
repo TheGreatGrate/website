@@ -78,15 +78,15 @@ body{
 }
 .wrapper .sidebar ul li a:hover,
 .wrapper .sidebar ul li a.active{
-	color: #0c7db1;
+	color: #777777;
 
 	background:white;
-    border-right: 2px solid rgb(5, 68, 104);
+    border-right: 2px solid rgb(37, 37, 37);
 }
 
 .wrapper .sidebar ul li a:hover .icon,
 .wrapper .sidebar ul li a.active .icon{
-	color: #0c7db1;
+	color: #777777;
 }
 
 .wrapper .sidebar ul li a:hover:before,
