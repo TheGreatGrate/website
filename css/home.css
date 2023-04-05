@@ -18,7 +18,9 @@ body{
 }
 .links-container {
     margin-left: auto;
-    text-decoration: none;
+}
+.links-container a:hover{
+    background-color: #49525e;
 }
 .about-link, .contact-link {
     margin-left: 10px;
